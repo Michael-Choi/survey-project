@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#outer-box{
+  background-color:#eee;
+  margin:0px auto;
+  border-radius: 5px;
+  width:80%;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.label{
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+#submit{
+  border-radius: 5px;
+}
+#submit:hover{
+  background-color: white;
+}
