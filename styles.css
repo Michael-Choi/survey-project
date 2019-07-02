@@ -12,16 +12,30 @@ body{
   padding: 10px;
 }
 
-.label{
-  display: inline-block;
+.blockunits{
+  display:inline-block;
   text-align: right;
-  width: 40%;
-  margin-bottom: 10px;
+  width:50%;
+  margin: 10px;
+}
+.label{
+  text-align: right;
+}
+
+ul{
+  list-style: none;
 }
 
 #submit{
+  background-color: rgba(27, 100, 204, 0.5);
+  height:40px;
+  width: auto;
+  display: block;
   border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+
 }
 #submit:hover{
-  background-color: white;
+  background-color: rgba(27, 100, 204, 1);
 }
