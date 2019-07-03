@@ -12,19 +12,38 @@
     <p id="description">Please fill out the following information</p>
 
     <form class="survey-form" action="index.html" method="post">
-      <label class="label" for="name">*Name: </label>
-      <input id="name" type="text" name="name" value="" placeholder="Enter your name" required>
 
-      <label class="label" for="email">*Email: </label>
-      <input id="email" type="email" name="email" value="" placeholder="Enter your Email" required>
+      <div class="blockunits">
+        <label class="label" for="name">*Name: </label>
+        <input class="input" id="name" type="text" name="name" value="" placeholder="Enter your Name" required>
+      </div>
 
-      <label class="label" for="age">*Age: </label>
-      <input id="age" type="number" name="email" value="" placeholder="Enter your Age" required>
+      <div class="blockunits">
+        <label class="label" for="email">*Email: </label>
+        <input class="input" id="email" type="email" name="email" value="" placeholder="Enter your Email" required>
+      </div>
 
-<button id="submit" type="submit" name="button">Submit</button>
+      <div class="blockunits">
+        <label class="label" for="age">*Age: </label>
+        <input class="input" id="age" type="number" name="email" value="" placeholder="Enter your Age" required>
+      </div>
 
+      <div class="blockunits">
+      <label class="label">*What is your gender?</label>
+        <ul class="input">
+          <li><label for="male"> <input type="radio" name="gender" value=""> Male </label></li>
+          <li><label for="female"> <input type="radio" name="gender" value=""> Female </label></li>
+          <li><label for="other"> <input type="radio" name="gender" value=""> Other  </label></li>
+        </ul>
+      </div>
+
+      <div class="blockunits">
+        <label for="textcomment" class="label">What can make a website more user friendly?</label>
+        <textarea name="textcomment" class="input" placeholder="Enter your response here"></textarea>
+      </div>
+
+      <button id="submit" type="submit" name="button">Submit</button>
     </form>
-  </div>
 
   </body>
 </html>

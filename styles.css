@@ -2,6 +2,9 @@ body{
   text-align: center;
   font-family: sans-serif;
 }
+.blockunits{
+  margin:5px;
+}
 
 #outer-box{
   background-color:#eee;
@@ -12,18 +15,25 @@ body{
   padding: 10px;
 }
 
-.blockunits{
-  display:inline-block;
-  text-align: right;
-  width:50%;
-  margin: 10px;
-}
 .label{
+  vertical-align:top;
+  display:inline-block;
+  width: 40%;
   text-align: right;
+  margin-top:10px;
+}
+.input{
+  display:inline-block;
+  width: 45%;
+  text-align: left;
+  margin-top:10px;
+  margin-left:5px;
 }
 
 ul{
   list-style: none;
+  position:relative;
+  left:-25px;
 }
 
 #submit{
